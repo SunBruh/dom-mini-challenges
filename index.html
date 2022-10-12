@@ -8,6 +8,39 @@
     <title>DOM Mini Challenges</title>
   </head>
   <body>
+    <main>
+      <section class="vending-machine">
+        <p class="total">Total: $0.00</p>
+        <div>
+          <button class="cola">Lime Cola $2</button>
+          <button class="peanuts">Salted Peanuts $3</button>
+          <button class="chocolate">Chocolate Bar $4</button>
+          <button class="gummies">Fruit Gummies $6</button>
+        </div>
+      </section>
+      <section class="make-money">
+        <form class="money-form">
+          <label for="number">How Many?</label>
+          <input type="number" name="howMany" id="howMany" />
+          <label for="select">Which Coin?</label>
+          <select name="coin" id="coin">
+            <option value="penny">Penny</option>
+            <option value="nickel">Nickel</option>
+            <option value="dime">Dime</option>
+            <option value="quarter">Quarter</option>
+          </select>
+          <button>Make Money</button>
+          <div class="coin-container"></div>
+        </form>
+      </section>
+      <section class="lightbulb">
+        <p class="light-bulb">Light Bulb</p>
+        <button class="on">ON</button>
+        <button class="off">OFF</button>
+        <button class="toggle">Toggle</button>
+        <button class="end">END</button>
+      </section>
+    </main>
     <script src="/script.js"></script>
   </body>
 </html>
